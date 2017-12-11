@@ -1,5 +1,9 @@
 
 @media only screen and (min-width: 1001px) {
+  body {
+    height: 100vh;
+  }
+
   .inner-content {
     width: 1000px;
     margin-left: auto;
@@ -74,45 +78,43 @@
   .featured-item p {
     font-size: 2.75vw;
     font-weight: 700;
-    text-align: left;
+    text-align: center;
     width: 70%;
     vertical-align: middle;
   }
 
   .featured h3 {
-    font-size:5vw;
+    font-size: 5vw;
     letter-spacing: 3px;
+    text-align: center;
   }
 
   .featured-item {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
   }
 
   .featured-item h2 {
-    font-size: 3vw;
+    font-size: 4vw;
     letter-spacing: .3vw;
-    width: 30%;
   }
 
   .featured-item img {
-    display: none;
+    width: 70%;
+    margin: auto;
+    vertical-align: bottom;
   }
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
   width: 100%;
-  height: 100vh;
+
   display: flex;
   flex-direction: column;
   margin: 0px;
-}
-
-.inner-content {
-  height: 100%;
 }
 
 header {
@@ -164,11 +166,11 @@ hr {
 }
 
 .featured {
-  width: 100%;
+  width: 98%;
   height: 30%;
   display: flex;
   flex-direction: column;
-  padding: 2%;
+  margin: 2%;
 }
 
 .featured h3 {
